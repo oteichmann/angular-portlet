@@ -4,7 +4,7 @@ angular.module("app.factories").
 			var deferred = $q.defer();
 
 			Liferay.Service(
-				'/bookmarksentry/get-group-entries',
+				'/bookmarks.bookmarksentry/get-group-entries',
 				{
 					groupId: Liferay.ThemeDisplay.getScopeGroupId(),
 					start: -1,
@@ -25,7 +25,7 @@ angular.module("app.factories").
 			var deferred = $q.defer();
 
 			Liferay.Service(
-				'/bookmarksentry/update-entry',
+				'/bookmarks.bookmarksentry/update-entry',
 				{
 					entryId: bookmark.entryId,
 					groupId: bookmark.groupId,
@@ -47,7 +47,7 @@ angular.module("app.factories").
 			var deferred = $q.defer();
 
 			Liferay.Service(
-				'/bookmarksentry/add-entry',
+				'/bookmarks.bookmarksentry/add-entry',
 				{
 					groupId: Liferay.ThemeDisplay.getScopeGroupId(),
 					folderId: 0,
@@ -68,7 +68,7 @@ angular.module("app.factories").
 			var deferred = $q.defer();
 
 			Liferay.Service(
-				'/bookmarksentry/delete-entry',
+				'/bookmarks.bookmarksentry/delete-entry',
 				{
 					entryId: bookmark.entryId
 				},
