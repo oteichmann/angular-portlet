@@ -5,8 +5,8 @@
 <portlet:defineObjects />
 
 <div id="<portlet:namespace />main" ng-cloak>
-	<div ng-hide="Liferay.ThemeDisplay.isSignedIn()">You need to be logged in to use this portlet</div>
-	<div ui-view ng-show="Liferay.ThemeDisplay.isSignedIn()"></div>
+	<div ng-hide="liferay.loggedIn">You need to be logged in to use this portlet</div>
+	<div ui-view ng-show="liferay.loggedIn"></div>
 </div>
 
 <!--
