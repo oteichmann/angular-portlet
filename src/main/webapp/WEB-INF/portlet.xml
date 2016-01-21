@@ -16,6 +16,10 @@
 			<name>edit-template</name>
 			<value>/jsp/edit.jsp</value>
 		</init-param>
+		<init-param>
+			<name>valid-paths</name>
+			<value>/partials/add.html,/partials/detail.html,/partials/liferay.html,/partials/list.html</value>
+		</init-param>
 		<expiration-cache>0</expiration-cache>
 		<supports>
 			<mime-type>text/html</mime-type>
