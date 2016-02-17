@@ -32,6 +32,8 @@
 		<supported-locale>nl_BE</supported-locale>
 		<supported-locale>el</supported-locale>
 		<supported-locale>el_GR</supported-locale>
+		<supported-locale>de</supported-locale>
+		<supported-locale>de_DE</supported-locale>
 		<resource-bundle>Language</resource-bundle>
 		<portlet-info>
 			<title>Angular Demo Portlet</title>

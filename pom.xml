@@ -76,6 +76,7 @@
 								<copy file="src/main/resources/Language_nl.properties" tofile="${project.build.outputDirectory}/Language_nl_BE.properties" />
 								<copy file="src/main/resources/Language_nl.properties" tofile="${project.build.outputDirectory}/Language_nl_NL.properties" />
 								<copy file="src/main/resources/Language_el.properties" tofile="${project.build.outputDirectory}/Language_el_GR.properties" />
+								<copy file="src/main/resources/Language_de.properties" tofile="${project.build.outputDirectory}/Language_de_DE.properties" />
 							</tasks>
 						</configuration>
 						<goals>
